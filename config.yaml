@@ -1,5 +1,6 @@
 main:
-  components_repository: "https://github.com/udacity/build-ml-pipeline-for-short-term-rental-prices#components"
+  #components_repository: "https://github.com/ChristophSchmidl/build-ml-pipeline-for-short-term-rental-prices#components"
+  components_repository: "components"
   # All the intermediate files will be copied to this directory at the end of the run.
   # Set this to null if you are running in prod
   project_name: nyc_airbnb
@@ -33,6 +34,6 @@ modeling:
     # Here -1 means all available cores
     n_jobs: -1
     criterion: mae
-    max_features: 0.5
+    max_features: 1
     # DO not change the following
     oob_score: true

@@ -24,8 +24,6 @@ def go(args):
     ######################
     # Custom code begins #
     ######################
-
-    
     
     # 4. Save the results to a CSV file called clean_sample.csv (df.to_csv("clean_sample.csv", index=False)). 
     # NOTE: Remember to use index=False when saving to CSV, otherwise the data checks in the next step might fail because there will be an extra index column. 
